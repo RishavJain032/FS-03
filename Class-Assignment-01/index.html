@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    
+    <title>Class Assignment1</title>
+</head>
+<body>
+    <div id = "root"></div>
+    <script>
+        let div = React.createElement('div',{style : {
+            // border : "2px solid red",
+            width : "670px",
+            height : "550px",
+            padding : "10px",
+            marginLeft:"30%",
+            // marginTop : "3%",
+            display : "flex",
+            justifyContent : "center",
+            flexDirection : "column",
+            alignItems : "center",
+            boxShadow : "inset 0 0 10px black",
+            borderRadius : "5px",
+            fontFamily: "Poppins",
+            // textAlign : "center"
+
+
+
+        }},[
+            React.createElement('h1',null,"Learn Web Development"),
+            React.createElement('p',null,"Welcome to the MDN learning area.This set of articles aims to guide complete beginners to web development with all that they need to start coding websites."),
+            // React.createElement('p', null, `The aim of this area of MDN is not to take you from "beginner" to "expert" but to take you from "beginner to "comfortable." From there, you should be able to start making your way, learning from <a href="#">the rest of MDN</a>, and other intermediate to advanced resources that assume a lot of previous knowledge.`),
+            React.createElement('p',null,`The aim of this area of MDN is not to take you from "beginner" to "expert" but to take you from "beginner" to "comfortable".From there ,you should be able to start making your way, learning from "the rest of MDN", and other intermediate to advanced resources that assume a lot of previous knowledge.`),
+            React.createElement('p',null,"If you are complete beginner,web development can be challenging- we will hold your hand and provide enough detail for you to feel comfortable and learn topics properly. You should feel at home weather you are a student learning web development (on your own or as part of a class),a teacher looking for class materials, a hobbyist,or someone who just wants to underline more about how web technologies work."),
+        ])
+    
+
+        ReactDOM.render(div,document.getElementById('root'))
+
+    </script>
+    
+</body>
+</html>
