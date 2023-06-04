@@ -1,0 +1,119 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.nav1{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav2{
+  width: 600px;
+  margin-top: -70px;
+  margin-left: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.heading{
+  margin-top: -280px;
+  margin-left: 400px;
+  color: white;
+}
+.para{
+  color : white;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+button{
+  margin-left: 600px;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 800;
+  font-weight: 800;
+}
+.fea{
+  margin-top: 100px;
+  margin-left: 40%;
+}
+.imgage {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.sub,.para2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+}
+.but{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  color: blue;
+  /* font-size: 100; */
+  /* font-weight: 100; */
+
+}
+.win{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -230px;
+}
+.num,.para3{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  /* margin-top: -200px; */
+
+}
+.fot{
+  width: 100%;
+  height: 400px;
+  color: white;
+  background-color: black;
+}
+.foooterhead{
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+
+}
+.lorem{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+
+}
+button:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+/* img{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+
+} */
+
