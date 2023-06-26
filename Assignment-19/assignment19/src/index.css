@@ -1,0 +1,170 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+.home{
+  height: 90%;
+  margin : 20px;
+  padding  : 20px
+  
+  
+}
+.home h1{
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+  
+  
+}
+.home p{
+  font-size: 1.3rem;
+  line-height:2rem;
+  letter-spacing: 1.1px;
+  
+  
+}
+
+.navbar{
+  /* border: 2px solid blue; */
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: Black;
+  color : white
+
+}
+.navbar .count{
+  /* border: 2px solid red; */
+  width: 9rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color : white
+
+
+}
+.navbar ul li span{
+  width: 30px;
+   border-radius: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+
+}
+
+.navbar ul{
+  /* border: 2px solid red; */
+  width: 40%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li{
+  font-size: 1.3rem;
+  list-style-type: none;
+
+}
+.navbar ul a{
+  text-decoration: none;
+  color  :white;
+
+
+}
+.navbar ul a :hover{
+  transform: scale(1.2);
+  background-color: white;
+  color  : black;
+}
+.navbar ul .active{
+  font-size: 1.3rem;
+  color  :white;
+
+
+}
+
+.product{
+  border: 2px solid green;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  padding-top: 2rem;
+  
+
+  
+}
+.product .card{
+  /* border: 2px solid red; */
+  height: 550px;
+  width: 22.5%;
+  margin: 0.9rem;
+  display: flex;
+  padding-left: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  box-shadow: 0 0 5px black;
+  transition: .1s;
+}
+/* .product :hover{
+  transform: scale(1.02);
+  box-shadow: 0 0 10px red;
+} */
+/* .card :hover{
+  transform: none;
+  box-shadow: none;
+} */
+.product .card img{
+  /* border: 2px solid red; */
+  width: 280px;
+  height: 300px;
+}
+.product .card h2{
+  text-transform: capitalize;
+  /* border: 2px solid red; */
+  font-size: 1.8rem;
+}
+.product .card p{
+/* border: 2px solid red; */
+font-size: 1.3rem;
+}
+.product .card span{
+  opacity: .6;
+}
+.product .card button{
+/* border: 2px solid red; */
+outline: none;
+border: none;
+transition: .3s;
+height: 8%;
+width: 60%;
+background-color:green;
+border-radius: 50px;
+color: white;
+font-size: 1.3rem;
+cursor: pointer;
+transition: 0.1s;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: ease-in-out;
+}
