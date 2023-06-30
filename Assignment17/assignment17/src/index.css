@@ -1,0 +1,55 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  color: white;
+  background-color: black;
+}
+.Navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Navbar button{
+  padding: 0.2rem 1rem;
+  border-radius: 8px;
+}
+.Navbar Span{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+
+.LoginPage {
+  height: 50vh;
+  width: 30vw;
+  margin: 0 auto;
+  box-Shadow: 0 0 10px black;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
